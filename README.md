@@ -5,16 +5,21 @@
 - `Enter` 换行
 - `Cmd+Enter` 或 `Ctrl+Enter` 提交
 
-实现不包含配置、轮询和 Lexical 方法改写。
-
 ## 安装
 
 ```bash
-gh repo clone wx-yss/dsh-composer-enter
-dsh plugin --profile web add file:./dsh-composer-enter
+dsh plugin --profile web add dsh-composer-enter
 ```
 
-修改代码后重启 DSH，并刷新浏览器页面。
+安装后重启 DSH，并刷新浏览器页面。
+
+## 功能
+
+- 普通 `Enter` 插入换行
+- `Cmd+Enter` 或 `Ctrl+Enter` 继续使用 DSH 原生提交行为
+- 输入法组合输入、候选菜单和带其他修饰键的 Enter 不受影响
+
+插件不提供配置项，不轮询 DOM，也不改写 Lexical 方法。
 
 ## 验证
 

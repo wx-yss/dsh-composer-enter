@@ -1,5 +1,5 @@
 {
-  "name": "@wx-yss/dsh-composer-enter",
+  "name": "dsh-composer-enter",
   "version": "0.1.0",
   "description": "让 DSH 0.1.5 使用 Enter 换行、Cmd/Ctrl+Enter 提交。",
   "type": "module",
