@@ -1,0 +1,3 @@
+- insert:
+    - id: composer-enter
+      name: '@wx-yss/dsh-composer-enter'
